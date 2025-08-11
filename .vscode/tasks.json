@@ -8,11 +8,11 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c++17",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I${workspaceFolder}/headers",
                 "${fileDirname}/*.cpp",
                 "${workspaceFolder}/src/sharedFns.cpp",
-                "-I${workspaceFolder}/headers"
+                "-o",
+                "${workspaceFolder}/bin/${fileDirnameBasename}-${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"

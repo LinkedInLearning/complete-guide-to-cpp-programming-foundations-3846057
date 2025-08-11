@@ -12,3 +12,7 @@ To enable the compiling open .vscode/tasks.json
 Add the following to the args array
     "${workspaceFolder}/src/sharedFns.cpp",
     "-I${workspaceFolder}/headers"
+
+I created a bin directory to build the project files into
+The files are built in the following pattern:
+<parent_directory_name>-<file_name>
