@@ -21,7 +21,7 @@
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
   "window.commandCenter":false,
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Lunar Pink",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
   "C_Cpp.clang_format_fallbackStyle": "none",

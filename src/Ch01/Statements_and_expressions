@@ -1,0 +1,12 @@
+#include <iostream>
+int main(){
+    int a =5; //declaration statement
+    int b = 3; //declaration statement
+    int c = a + b; //declaration statement with an expresssion
+
+    if (c > 5) { //Conditional statement with an expresssion
+        std::cout << "c is greater than 5"; //Output statement
+    }
+
+    return 0; //Return Statement
+}

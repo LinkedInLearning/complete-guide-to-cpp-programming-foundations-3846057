@@ -1,0 +1,21 @@
+//Const qualifier:
+// used to declare variables that can't be modified after their initial assignment. >> useful for defining constant values and ensuring that certain data remains unchanged throughout your program
+const int maxHealth = 100;
+//maxHealth is a constant integer that cant be changed. Attempting to change it will result in a compiler error "Error: assignment of read-only variable maxHealth"
+
+//Using const with function parameters helps ensure that the arguments passed to the function are not modified within the function:
+#include <iostream>
+#include <string>
+
+void displayScore(const std::string & playerName){
+    std::cout << "Player: " <<playerName << std::endl;
+}
+int main(){
+    std::string name = "Hero";
+    displayScore (name);
+    return 0;
+}
+//playerName is a constant reference to a std::string, ensuring that the function cannot modify the original string.
+// void == the function returns nothing (it just prints)
+// const == the function promises not to modify playerName
+// std::string& == the & means its a reference

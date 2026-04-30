@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main(){
+    int age;
+    std::cout << "Enter your age: ";
+    std::cin>> age;
+    std::cout<< "You are" << age << "years old." << std::endl;
+    return 0;
+}
+// the << operator is known as the INSERTION operator. its used with std::cout to send data to the standard output, which is typically the screen. For example, in the statement std::cout <<"Hello World!";, the string "Hello World!" is inserted into std::cout and displayed onto the screen.
+// the >> is operator known as the extraction opeartor. Its used with std::cin to reciev data from the standard input, which is typically the keyboard. For example, in the statement std::cin >> inputVariable;, the value entered by the user is extracted from std::cin and stored in inputVariable.
+
+#include <iostream>
+#include <cmath> //mathematical functions
+
+int main(){
+    double number = 9.0;
+    std::cout<< "Square root of" << number << "is" << std::sqrt(number) << std::endl;
+    return 0;
+}

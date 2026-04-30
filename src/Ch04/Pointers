@@ -1,0 +1,4 @@
+NULL: legacy constant used to indicate that a pointer doesnt point to any valid memory address
+nullptr: provides type safety and avoids potential ambiguity 
+ >> is a constant of its own type resevered for this purpose
+NULL >> returns integer value 0
