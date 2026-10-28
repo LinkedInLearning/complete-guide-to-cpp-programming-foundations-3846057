@@ -1,7 +1,6 @@
 # Complete Guide to C++ Programming Foundations
 This is the repository for the LinkedIn Learning course `Complete Guide to C++ Programming Foundations`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![lil-thumbnail-url]
 
 ## Course Description
 

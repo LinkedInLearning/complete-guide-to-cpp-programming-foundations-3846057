@@ -3,7 +3,7 @@
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
   "editor.fontLigatures": false,
-  "editor.fontSize": 22,
+  "editor.fontSize": 12,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.lineNumbers": "on",
@@ -91,5 +91,6 @@
     "xutility": "cpp",
     "stack": "cpp",
     "complex": "cpp"
-}
+},
+"C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
 }
